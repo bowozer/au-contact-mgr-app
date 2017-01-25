@@ -136,6 +136,19 @@
                         "resources": [
                             "css/bootstrap.css"
                         ]
+                    },
+                    {
+                        "name": "spinjs",
+                        "path": "../vendorjs",
+                        "main": "spin"
+                    },
+                    {
+                        "name": "nprogress",
+                        "path": "../node_modules/nprogress",
+                        "main": "nprogress",
+                        "resources": [
+                            "nprogress.css"
+                        ]
                     }
                 ]
             }

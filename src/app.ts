@@ -1,8 +1,13 @@
 import { Router, RouterConfiguration } from 'aurelia-router';
+import { inject } from 'aurelia-framework';
+import { WebAPI } from './web-api';
 
+@inject(WebAPI)
 export class App {
   message = 'Hello World!';
   router: Router;
+
+  constructor(public api: WebAPI) { }
 
   configureRouter(config: RouterConfiguration, router: Router) {
     config.title = 'Contacts';
