@@ -149,7 +149,9 @@
                         "resources": [
                             "nprogress.css"
                         ]
-                    }
+                    },
+                    "whatwg-fetch",
+                    "aurelia-fetch-client"
                 ]
             }
         ]

@@ -1,6 +1,8 @@
 import { Router, RouterConfiguration } from 'aurelia-router';
 import { inject } from 'aurelia-framework';
 import { WebAPI } from './web-api';
+import 'whatwg-fetch';
+import { HttpClient } from 'aurelia-fetch-client';
 
 @inject(WebAPI)
 export class App {
