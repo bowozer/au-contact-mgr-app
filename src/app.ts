@@ -16,7 +16,8 @@ export class App {
 
     config.map([
       { route: '', moduleId: 'no-selection', title: 'Select' },
-      { route: 'contacts/:id', moduleId: 'contact-detail', name: 'contacts', title: 'contacts' }
+      { route: 'contacts/:id', moduleId: 'contact-detail', name: 'contacts', title: 'contacts' },
+      { route: 'sandbox', moduleId: 'sandbox', name: 'sandbox', title: 'sandbox' }
     ]);
 
     this.router = router;

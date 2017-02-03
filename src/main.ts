@@ -29,6 +29,7 @@ export function configure(aurelia: Aurelia) {
   httpClient.configure(config => {
     config
       .useStandardConfiguration()
+      .withBaseUrl('http://localhost:5000')
       .withDefaults({
         mode: 'cors',
         headers: {

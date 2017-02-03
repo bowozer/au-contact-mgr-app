@@ -1,4 +1,6 @@
-body { padding-top: 70px; }
+body {
+  padding-top: 70px;
+}
 
 section {
   margin: 0 20px;
@@ -9,7 +11,7 @@ a:focus {
 }
 
 .navbar-nav li.loader {
-    margin: 12px 24px 0 6px;
+  margin: 12px 24px 0 6px;
 }
 
 .no-selection {
@@ -34,7 +36,7 @@ a:focus {
   background: white;
 }
 
-.button-bar > button {
+.button-bar>button {
   float: right;
   margin: 20px;
 }
@@ -43,10 +45,10 @@ li.list-group-item {
   list-style: none;
 }
 
-li.list-group-item > a {
+li.list-group-item>a {
   text-decoration: none;
 }
 
-li.list-group-item.active > a {
+li.list-group-item.active>a {
   color: white;
 }

@@ -1,0 +1,9 @@
+<template>
+  <h1>Sandbox</h1>
+  <button type="button" click.delegate="clientCredentialsLogin()">Client Credentials Login</button>
+  <button type="button" click.delegate="clientCredentialsLogout()">Client Credentials Logout</button>
+  <button type="button" click.delegate="getClientCredIdentityApi()">Client Cred Claim List</button>
+  <ul>
+    <li repeat.for="claim of clientCredClaimList">${claim.type} - ${claim.value}</li>
+  </ul>
+</template>
